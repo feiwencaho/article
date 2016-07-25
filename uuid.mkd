@@ -45,19 +45,19 @@ python中有四种产生uuid方式，不过实现方式也并不相同。
 
 * *uuid.NAMESPACE_DNS*
 
-当指定该命名空间时，参数 name 是一个完全限定的（fully-qualified）域名
+当指定该命名空间时，参数 name 是一个域名
 
 * *uuid.NAMESPACE_URL*
 
-当指定该命名空间时，参数 name 是一个完全限定的（fully-qualified）域名
+当指定该命名空间时，参数 name 是一个URL
 
 * *uuid.NAMESPACE_OID*
 
-当指定该命名空间时，参数 name 是一个完全限定的（fully-qualified）域名
+当指定该命名空间时，参数 name 是一个ISO OID
 
 * *uuid.NAMESPACE_X500*
 
-当指定该命名空间时，参数 name 是一个完全限定的（fully-qualified）域名
+当指定该命名空间时，参数 name 是一个DER格式或文本格式的X.500 DN。
 
 #### 代码
 调用方式也很简单：
