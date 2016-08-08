@@ -19,7 +19,7 @@ python中有四种产生uuid方式，不过实现方式也并不相同。
 
 *  uuid.uuid3()
     通过计算名字和命名空间的MD5散列值得到，保证了同一命名空间中不同名字的唯一性，
-                和不同命名空间的唯一性，但同一命名空间的同一名字生成相同的uuid。 
+    和不同命名空间的唯一性，但同一命名空间的同一名字生成相同的uuid。 
  
 ```
     """Generate a UUID from the MD5 hash of a namespace UUID and a name."""
